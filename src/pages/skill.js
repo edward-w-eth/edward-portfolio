@@ -1,9 +1,8 @@
-import AnimatedText from "@/components/AnimatedText";
-import Layout from "@/components/Layout";
+import Layout from "../components/Layout";
 import Head from "next/head";
 import React from "react";
 import { motion } from "framer-motion";
-import Experience from "@/components/Experience";
+import Experience from "../components/Experience";
 
 const skillList = [
   { name: "CSS", x: "-5vw", y: "5vw" },

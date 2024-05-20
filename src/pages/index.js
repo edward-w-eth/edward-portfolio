@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Layout from "@/components/Layout";
+import Layout from "../components/Layout";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/Edward.png";
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icon";
-import HireMe from "@/components/HireMe";
+import { LinkArrow } from "../components/Icon";
+import HireMe from "../components/HireMe";
 
 export default function Home() {
   return (
