@@ -25,7 +25,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
 EXPERIENCE: 
 
 Web3 Engineer @PIKKLES
-September 2022 – January 2024 2022-2024 | Tokyo, Japan
+September 2022 – January 2024 | Tokyo, Japan
 led blockchain full stack agile team for developing 3 smart contracts for NFT marketplace, resulting in 30% reduction of development timeline and web3 optimization.
 
 Full-Stack Engineer @Cart.com
