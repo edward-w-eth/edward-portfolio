@@ -1,11 +1,11 @@
-import AnimatedText from "@/components/AnimatedText";
-import Layout from "@/components/Layout";
+import AnimatedText from "../components/AnimatedText";
+import Layout from "../components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import aboutMe from "../../public/images/profile/aboutMe.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import Education from "@/components/Education";
+import Education from "../components/Education";
 
 const AnimatedNumnbers = ({ value }) => {
   const ref = useRef(null);
@@ -99,7 +99,7 @@ const about = () => {
               </div>
             </div>
           </div>
-          <Education className={"!my-20"}/>
+          <Education className={"!my-20"} />
         </Layout>
       </main>
     </>
