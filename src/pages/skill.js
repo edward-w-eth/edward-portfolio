@@ -59,7 +59,7 @@ const skills = () => {
               <Skill {...skill} key={index} />
             ))}
           </div>
-          <Experience className={"!mt-20"} />
+          <Experience className={"!mt-20 !mb-0"} />
         </Layout>
       </main>
     </>
