@@ -5,6 +5,7 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import aboutMe from "../../public/images/profile/aboutMe.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import Education from "@/components/Education";
 
 const AnimatedNumnbers = ({ value }) => {
   const ref = useRef(null);
@@ -47,7 +48,7 @@ const about = () => {
               </h2>
               <p className="font-medium">
                 {`
-                                    Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
+                                    Hi, I'm Edward Martin by name, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                                     and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
                                     new and innovative ways to bring my clients' visions to life.
                                     `}
@@ -63,7 +64,7 @@ const about = () => {
                                     `}
               </p>
             </div>
-            <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark  bg-light p-8 dark:border-light dark:bg-dark">
+            <div className="relative col-span-3 h-max rounded-2xl border-1 border-solid border-dark  bg-light p-8 dark:border-light dark:bg-dark">
               <div className="absolute  top-0 -right-3 -z-10  rounded-[2rem] rounded-br-3xl  bg-dark dark:bg-light"></div>
               <Image
                 src={aboutMe}
@@ -98,6 +99,7 @@ const about = () => {
               </div>
             </div>
           </div>
+          <Education className={"!my-20"}/>
         </Layout>
       </main>
     </>
